@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/icon_ticket_counter"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_ticket_counter"
+            android:contentDescription="@string/ticket_counter_icon"
+            android:background="@drawable/bg_icon"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/ticket_counter"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/icon_temple_archives"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_temple_archives"
+            android:contentDescription="@string/temple_archives_icon"
+            android:background="@drawable/bg_icon"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/temple_archives"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>
